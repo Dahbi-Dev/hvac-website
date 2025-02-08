@@ -56,10 +56,10 @@ const HeroSection = () => {
         <div className="flex justify-center space-x-6">
           <a
             href="#contact"
-            className="bg-blue-700 hover:bg-blue-500 text-white px-8 py-4 rounded-full 
+            className="bg-blue-700  hover:bg-blue-500 text-white px-4 py-4 rounded-full 
             flex items-center space-x-2 transition duration-300 transform hover:scale-105"
           >
-            <span>Get a Free Quote</span>
+            <span>Get a Quote</span>
             <ChevronRight />
           </a>
           <a
@@ -67,7 +67,7 @@ const HeroSection = () => {
             className="bg-green-700 hover:bg-green-500 text-white px-8 py-4 rounded-full 
             flex items-center space-x-2 transition duration-300 transform hover:scale-105"
           >
-            <span>Call Us Now</span>
+            <span>Call Us</span>
             <Phone />
           </a>
         </div>

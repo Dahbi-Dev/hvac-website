@@ -1,17 +1,19 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 import React from "react";
 import { ClipboardList, PhoneCall, Wrench, CheckCircle2 } from "lucide-react";
 
 const ProcessStep = ({ icon, title, description, step }) => (
   <div className="relative flex items-start space-x-4 group">
     <div className="flex flex-col items-center">
-      <div className="w-16 h-16 rounded-full bg-primary text-white flex items-center justify-center mb-2 relative z-10">
+      <div className="w-16 h-16 rounded-full bg-gray-500 text-white flex items-center justify-center mb-2 relative z-10">
         {icon}
       </div>
       <div className="h-full w-0.5 bg-gray-200 absolute top-16 group-last:hidden"></div>
     </div>
     <div className="flex-1 bg-white p-6 rounded-xl shadow-md">
       <h3 className="text-xl font-semibold text-gray-800 mb-3">
-        <span className="text-primary mr-2">Step {step}</span>
+        <span className="text-blue-600 mr-2">Step {step}</span>
         {title}
       </h3>
       <p className="text-gray-600">{description}</p>

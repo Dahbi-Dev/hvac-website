@@ -67,8 +67,8 @@ const Contact = () => {
               <div className="flex items-center space-x-4">
                 <MapPin className="text-primary" size={32} />
                 <div>
-                  <h4 className="font-semibold">Our Address</h4>
-                  <p className="text-gray-600">
+                  <h4 className="font-semibold text-gray-950">Our Address</h4>
+                  <p className="text-gray-700">
                     123 HVAC Street, Hamilton, ON L8N 3T4
                   </p>
                 </div>
@@ -76,20 +76,22 @@ const Contact = () => {
               <div className="flex items-center space-x-4">
                 <Phone className="text-primary" size={32} />
                 <div>
-                  <h4 className="font-semibold">Phone Number</h4>
+                  <h4 className="font-semibold text-gray-950">Phone Number</h4>
                   <p className="text-gray-600">(800) 555-HVAC</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4">
                 <Mail className="text-primary" size={32} />
                 <div>
-                  <h4 className="font-semibold">Email</h4>
+                  <h4 className="font-semibold text-gray-950">Email</h4>
                   <p className="text-gray-600">support@hvaccompany.com</p>
                 </div>
               </div>
             </div>
             <div className="mt-8">
-              <h4 className="font-semibold mb-2">Hours of Service</h4>
+              <h4 className="font-semibold mb-2 text-gray-950">
+                Hours of Service
+              </h4>
               <p className="text-gray-600">24/7 Emergency Support</p>
               <p className="text-gray-600">Regular Hours: Mon-Fri 8am-6pm</p>
             </div>

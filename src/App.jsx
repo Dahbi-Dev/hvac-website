@@ -15,8 +15,8 @@ import MapSection from "./components/MapSection";
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-gray-50 text-gray-900">
-        <Navbar />
+<div className="min-h-screen bg-gray-50 text-gray-900 w-full overflow-x-hidden">       
+   <Navbar />
         <ScrollToTop />
 
         <Routes>

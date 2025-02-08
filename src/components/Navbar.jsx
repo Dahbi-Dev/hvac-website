@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Phone, Menu, X } from "lucide-react";
@@ -21,7 +22,11 @@ const Navbar = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex items-center">
-            <img src={Logo} alt="HVAC Company Logo" className="h-24 w-auto" />
+            <img
+              src={Logo}
+              alt="HVAC Company Logo"
+              className="h-16 md:h-24 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
@@ -42,7 +47,7 @@ const Navbar = () => {
               className="bg-blue-700 text-white px-4 py-2 rounded-full flex items-center space-x-2 hover:bg-blue-500 transition"
             >
               <Phone size={20} />
-              <span>Call Now +18005551234</span>
+              <span className="hidden md:inline">Call Now +18005551234</span>
             </a>
           </div>
 
